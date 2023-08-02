@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.wjtje.dev/sitemap.xml
+Sitemap: https://www.rlin.eu/sitemap.xml
