@@ -1,6 +1,6 @@
 {
-	"name": "Wouter van der Wal",
-	"about": "Een {{birthday:age}} jaar oude software ontwikkelaar uit Nederland, die op dit moment experimenteert met TypeScript, Svelte, GraphQL en Tailwind. En daarnaast zich bezig houd met details op OpenStreetMap toevoegen.",
+	"name": "Robin van der Linde",
+	"about": "Een {{birthday:age}} jaar oude software ontwikkelaar uit Nederland. Gepassioneerd over OpenStreetMap, programmeren en nog veel meer.",
 	"ghactivity": "GitHub activiteit",
 	"osmactivity": "OpenStreetMap activiteit",
 	"noData": "Kon de vereiste data niet krijgen van de server. ({{status}})",

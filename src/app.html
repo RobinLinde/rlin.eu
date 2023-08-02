@@ -8,7 +8,13 @@
 
 		<script>
 			// Auto load dark mode
-			let theme = JSON.parse(localStorage.getItem('theme'));
+			let theme;
+			try {
+			theme = JSON.parse(localStorage.getItem('theme'));
+			} catch (e) {
+				// Do nothing
+				theme = null;
+			}
 			if (theme == null || theme == 'system') {
 				// Use theme from device
 				theme =

@@ -5,7 +5,7 @@
 
 <section>
 	<img
-		src="https://www.gravatar.com/avatar/1741643deaafad86bd0bf2a4fb481366?s=200&d=mp"
+		src="https://www.gravatar.com/avatar/248fbd9874ffed09b789d27ccdddd47c?s=200&d=mp"
 		alt="headshot"
 	/>
 
