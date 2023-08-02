@@ -91,7 +91,7 @@
 				@apply hover:text-red-600 gdark:hover:text-red-500;
 			}
 			// Define brands with custom styles
-			$brands: discord, osm, mastodon, linkedin, reddit, twitter, youtube;
+			$brands: discord, osm, mastodon, linkedin, reddit, youtube;
 			@each $brand in $brands {
 				&.#{$brand} {
 					@apply #{'hover:text-' + $brand + '-brand'};
