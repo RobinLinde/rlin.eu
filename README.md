@@ -1,6 +1,6 @@
-# wjtje.dev <!-- omit in toc -->
+# rlin.eu <!-- omit in toc -->
 
-> The source code for the website [https://www.wjtje.dev/](wjtje.dev)
+> The [forked](https://github.com/wjtje/wjtje.dev) source code for the website [https://rlin.eu/](rlin.eu)
 
 ## Index <!-- omit in toc -->
 
