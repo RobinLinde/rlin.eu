@@ -50,7 +50,7 @@
 	}
 
 	div.loader {
-		@apply absolute top-12 w-screen h-1 z-50 bg-green-500;
+		@apply absolute top-12 w-screen h-1 z-50 bg-orange-500;
 		animation: load-right 2s 1s cubic-bezier(0.645, 0.045, 0.355, 1) forwards;
 		animation-iteration-count: infinite;
 		left: -100vw;

@@ -50,7 +50,7 @@
 	}
 </script>
 
-<svelte:body bind:clientWidth={body_width}/>
+<svelte:body bind:clientWidth={body_width} />
 
 <div
 	on:mouseenter={() => {
@@ -120,7 +120,7 @@
 
 				// Make the active item slightly bold
 				&.active {
-					@apply text-green-400 md:text-white font-semibold md:font-bold;
+					@apply text-orange-400 md:text-white font-semibold md:font-bold;
 				}
 
 				button {
