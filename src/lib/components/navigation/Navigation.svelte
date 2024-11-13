@@ -10,8 +10,8 @@
 		@apply flex items-center gap-4 px-6;
 		// Border and color
 		@apply border-b-2;
-		@apply bg-green-600 border-green-500 text-white;
-		@apply gdark:bg-green-700 gdark:border-green-600;
+		@apply bg-orange-600 border-orange-500 text-white;
+		@apply gdark:bg-orange-700 gdark:border-orange-600;
 		// Spacing of the items
 		@apply justify-between md:justify-start;
 		// Hide the navbar on prited pages
