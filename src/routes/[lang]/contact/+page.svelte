@@ -28,7 +28,7 @@
 	</li>
 	<li class="github">
 		<GoMarkGithub title="Github" />
-		<span><a href="https://www.github.com/RobinLinde">RobinLinde<a /></a></span>
+		<span><a href="https://www.github.com/RobinLinde">RobinLinde</a></span>
 	</li>
 	<li class="linkedin">
 		<FaLinkedin title="LinkedIn" />
@@ -49,16 +49,16 @@
 			></span
 		>
 	</li>
-	<li class="reddit">
-		<FaReddit title="Reddit" /><span
-			><a href="https://www.reddit.com/u/RobinVanDerLinde">u/RobinVanDerLinde</a></span
-		>
-	</li>
 </ul>
 
 <br />
 
 <ul>
+	<li class="reddit">
+		<FaReddit title="Reddit" /><span
+			><a href="https://www.reddit.com/u/RobinVanDerLinde">u/RobinVanDerLinde</a></span
+		>
+	</li>
 	<li class="discord">
 		<DiscordIcon />
 		<span><a href="https://discord.com/users/177870272047611904">RobinLin#8649</a></span>
@@ -71,6 +71,10 @@
 		>
 	</li>
 </ul>
+
+<br />
+
+<p>{$t('contact.linkstack')} <a href="https://me.rlin.eu">me.rlin.eu</a></p>
 
 <style lang="scss">
 	p {
