@@ -2,11 +2,14 @@
 	import { locale } from '$lib/i18n';
 	import { DateTime } from 'luxon';
 	import Markdown from 'svelte-exmarkdown';
+	import { scale } from 'svelte/transition';
 
 	export let image: string = undefined;
 	export let date: Date | string = undefined;
 	export let mainTitle: string = undefined;
 	export let subTitle: string = undefined;
+	export let index: number = 0;
+	export let url: string | undefined = undefined;
 
 	// Remove images from the subtitle
 	$: subtitleClean = String(subTitle).replaceAll(/!\[[^\]]*\]\((.*?)\s*("(?:.*[^"])")?\s*\)/g, '');
@@ -16,7 +19,7 @@
 	});
 </script>
 
-<section>
+<section in:scale={{ duration: 400, delay: index * 50 }}>
 	<div class="text">
 		<slot name="tags" />
 
@@ -57,7 +60,7 @@
 
 			// The date above the title shown in a light gray
 			span {
-				@apply text-xs text-zinc-700 dark:text-zinc-300 mb-[-0.1rem] mt-[0.1rem] block;
+				@apply text-xs text-zinc-700 gdark:text-zinc-300 mb-[-0.1rem] mt-[0.1rem] block;
 			}
 
 			// The main title in large default color text with markdown support

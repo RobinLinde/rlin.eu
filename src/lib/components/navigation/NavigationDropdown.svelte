@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { TransitionConfig } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 
