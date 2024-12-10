@@ -25,7 +25,7 @@
 	<meta name="og:description" content={post.preview} />
 	<meta name="og:image" content={post.image ?? ''} />
 	<!-- Custom tags for Mastodon -->
-	<meta name="fediverse:creator" content="@wouter@wjt.je" />
+	<meta name="fediverse:creator" content="@rlin@en.osm.town" />
 </svelte:head>
 
 <main>
